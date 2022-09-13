@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {},
     ".NETCoreApp,Version=v6.0/linux-x64": {
-      "Konducter/1.0.813": {
+      "Konducter/1.0.814": {
         "dependencies": {
           "CashDrawerPlugin": "1.0.0",
           "Jint": "3.0.0-beta-2038",
@@ -22,7 +22,7 @@
           "Konducter.Ordering.Client": "1.0.58",
           "Konducter.Ordering.Services": "1.0.240",
           "Konducter.Ordering.Settings": "1.0.46",
-          "Konducter.Ordering.State": "1.0.337",
+          "Konducter.Ordering.State": "1.0.338",
           "Konducter.Ordering.State.Persistence": "1.0.19",
           "Konducter.Ordering.UserServices": "1.0.9",
           "Konducter.Persistence.System": "1.0.10",
@@ -1467,7 +1467,7 @@
         "dependencies": {
           "Konducter.Communication.Peer": "1.0.75",
           "Konducter.Ordering.Settings": "1.0.46",
-          "Konducter.Ordering.State": "1.0.337",
+          "Konducter.Ordering.State": "1.0.338",
           "Konducter.Ordering.State.Persistence": "1.0.19",
           "Konducter.Shared": "1.0.47",
           "Konducter.Shared.Device": "1.0.39",
@@ -1513,7 +1513,7 @@
           }
         }
       },
-      "Konducter.Ordering.State/1.0.337": {
+      "Konducter.Ordering.State/1.0.338": {
         "dependencies": {
           "Konducter.Shared": "1.0.47",
           "Konducter.Shared.Device": "1.0.39",
@@ -1523,14 +1523,14 @@
         },
         "runtime": {
           "lib/net6.0/Konducter.Ordering.State.dll": {
-            "assemblyVersion": "1.0.337.0",
-            "fileVersion": "1.0.337.0"
+            "assemblyVersion": "1.0.338.0",
+            "fileVersion": "1.0.338.0"
           }
         }
       },
       "Konducter.Ordering.State.Persistence/1.0.19": {
         "dependencies": {
-          "Konducter.Ordering.State": "1.0.337",
+          "Konducter.Ordering.State": "1.0.338",
           "Konducter.State.Persistence": "1.0.22",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.9"
         },
@@ -1545,7 +1545,7 @@
         "dependencies": {
           "Konducter.Controls.Device": "1.0.5",
           "Konducter.Ordering.Services": "1.0.240",
-          "Konducter.Ordering.State": "1.0.337",
+          "Konducter.Ordering.State": "1.0.338",
           "Konducter.UserServices": "1.0.3",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
@@ -1571,7 +1571,7 @@
       },
       "Konducter.Production.OrderingBridge/1.0.13": {
         "dependencies": {
-          "Konducter.Ordering.State": "1.0.337",
+          "Konducter.Ordering.State": "1.0.338",
           "Konducter.Production.Services": "1.0.34"
         },
         "runtime": {
@@ -3233,7 +3233,7 @@
     }
   },
   "libraries": {
-    "Konducter/1.0.813": {
+    "Konducter/1.0.814": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -3374,12 +3374,12 @@
       "path": "konducter.ordering.site/1.0.22",
       "hashPath": "konducter.ordering.site.1.0.22.nupkg.sha512"
     },
-    "Konducter.Ordering.State/1.0.337": {
+    "Konducter.Ordering.State/1.0.338": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MDvC8N2ot4zd+YuQa3HT8eAetyAtHLOU+8OAY4eifqWpBsYU2vdt/f2fI2nRSrPp9qnpz0TQ3RPRgBcWl1PoPg==",
-      "path": "konducter.ordering.state/1.0.337",
-      "hashPath": "konducter.ordering.state.1.0.337.nupkg.sha512"
+      "sha512": "sha512-3K8MEM7kZ1eGO1qlsyvoShZYa1bI4zWh3NO0WEkpNl4CywfntGEIhjd2HxVfrIw8uHMEQTn0THguRn+q48x3mw==",
+      "path": "konducter.ordering.state/1.0.338",
+      "hashPath": "konducter.ordering.state.1.0.338.nupkg.sha512"
     },
     "Konducter.Ordering.State.Persistence/1.0.19": {
       "type": "package",
