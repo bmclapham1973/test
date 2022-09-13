@@ -1,0 +1,112 @@
+﻿.keyboard {
+    width: 1000px;
+}
+
+.keyboard-space {
+    width: 580px;
+    height: 50px;
+}
+
+.keyboard-key {
+    width: 70px;
+    height: 50px;
+}
+
+.keyboard-caps {
+    width: 100px;
+    height: 50px;
+}
+
+.keyboard-shift {
+    width: 120px;
+    height: 50px;
+}
+
+.keyboard-ok {
+    width: 100px;
+    height: 50px;
+}
+
+.keyboard-clear {
+    width: 148px;
+    height: 50px;
+}
+
+.keyboard-backspace {
+    width: 100px;
+    height: 48px;
+}
+.keyboard-text {
+    height: 48px !important;
+}
+.keyboard-title {
+    font-size: var(--mud-typography-h6-size);
+    font-family: var(--mud-typography-h6-family);
+    font-weight: var(--mud-typography-h6-weight);
+    line-height: var(--mud-typography-h6-lineheight);
+    letter-spacing: var(--mud-typography-h6-letterspacing);
+    text-transform: var(--mud-typography-h6-text-transform);
+    margin-bottom: 3px;
+}
+
+.device-message-box {
+    max-width: 500px;
+    width: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+    .keyboard {
+        width: 570px;
+    }
+    .keyboard-space {
+        width: 350px;
+        height: 30px;
+    }
+
+    .keyboard-key {
+        width: 34px !important;
+        min-width: 34px !important;
+        height: 30px !important;
+        padding: 0 !important;
+    }
+
+    .keyboard-caps {
+        width: 40px;
+        min-width: 40px !important;
+        height: 30px;
+    }
+
+    .keyboard-shift {
+        width: 70px;
+        min-width: 70px !important;
+        height: 30px;
+    }
+
+    .keyboard-ok {
+        width: 60px;
+        min-width: 60px !important;
+        height: 30px;
+    }
+
+    .keyboard-clear {
+        width: 78px !important;
+        min-width: 78px !important;
+        height: 30px !important;
+        padding: 0 !important;
+    }
+
+    .keyboard-title {
+        font-size: var(--mud-typography-subtitle2-size);
+        font-family: var(--mud-typography-subtitle2-family);
+        font-weight: var(--mud-typography-subtitle2-weight);
+        line-height: var(--mud-typography-subtitle2-lineheight);
+        letter-spacing: var(--mud-typography-subtitle2-letterspacing);
+        text-transform: var(--mud-typography-subtitle2-text-transform);
+        margin-bottom: 1px;
+    }
+}
+
+
+
+
+

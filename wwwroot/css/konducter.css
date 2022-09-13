@@ -1,0 +1,81 @@
+﻿html, body {
+    touch-action: none;
+}
+
+html, body, div {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+body {
+    background-color: #000;
+    overflow: hidden;
+}
+
+div.loading {
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #ff914d;
+    background-image: url(/images/Konducter.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+    div.loading span {
+        position: relative;
+        color: #574224;
+        font-size: 14px;
+        font-family: 'Roboto','Helvetica','Arial','sans-serif';
+        font-weight: 400;
+        top: 65%;
+    }
+
+.promptbutton-key {
+    width: 98px;
+    height: 50px;
+}
+
+.promptbutton-title {
+    font-size: var(--mud-typography-h6-size);
+    font-family: var(--mud-typography-h6-family);
+    font-weight: var(--mud-typography-h6-weight);
+    line-height: var(--mud-typography-h6-lineheight);
+    letter-spacing: var(--mud-typography-h6-letterspacing);
+    text-transform: var(--mud-typography-h6-text-transform);
+    margin-bottom: 3px;
+}
+
+
+
+.mud-list.mud-list-padding {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.mud-list-item.mud-list-item-dense {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.mud-list-item-text {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.scroll-y {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    touch-action: pan-y !important;
+}
+
+.scroll-x {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    touch-action: pan-x !important;
+}
+

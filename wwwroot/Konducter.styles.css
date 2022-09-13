@@ -1,0 +1,130 @@
+/* _content/Konducter/Views/Bases/BaseBadgedButton.razor.rz.scp.css */
+
+[b-pfsi7ih7re] .mud-badge.mud-badge-top.left.mud-badge-overlap {
+    inset: auto calc(100% - 20px) calc(100% - 20px) auto;
+}
+[b-pfsi7ih7re] .mud-badge.mud-badge-top.left.mud-badge-overlap.mud-badge-dot {
+    inset: auto calc(100% - 11px) calc(100% - 11px) auto;
+}
+
+[b-pfsi7ih7re] .mud-badge.mud-badge-bottom.right.mud-badge-overlap {
+    inset: calc(100% - 20px) auto auto calc(100% - 20px);
+}
+[b-pfsi7ih7re] .mud-badge.mud-badge-bottom.right.mud-badge-overlap.mud-badge-dot {
+    inset: calc(100% - 11px) auto auto calc(100% - 11px);
+}
+
+[b-pfsi7ih7re] .mud-badge.mud-badge-top.right.mud-badge-overlap {
+    inset: auto auto calc(100% - 20px) calc(100% - 20px);
+}
+[b-pfsi7ih7re] .mud-badge.mud-badge-top.right.mud-badge-overlap.mud-badge-dot {
+    inset: auto auto calc(100% - 11px) calc(100% - 11px);
+}
+
+[b-pfsi7ih7re] .mud-badge.mud-badge-bottom.left.mud-badge-overlap {
+    inset: calc(100% - 20px) calc(100% - 20px) auto auto;
+}
+[b-pfsi7ih7re] .mud-badge.mud-badge-bottom.left.mud-badge-overlap.mud-badge-dot {
+    inset: calc(100% - 11px) calc(100% - 11px) auto auto;
+}
+
+[b-pfsi7ih7re] .mud-badge.mud-badge-bottom.center {
+    top: calc(100% - 20px);
+}
+[b-pfsi7ih7re] .mud-badge.mud-badge-bottom.center.mud-badge-dot {
+    top: calc(100% - 11px);
+}
+
+[b-pfsi7ih7re] .mud-badge-root {
+    border-radius: 4px;
+}
+/* _content/Konducter/Views/Bases/BaseButton.razor.rz.scp.css */
+[b-voiox86di0] .mud-button {
+    min-width: 10px;
+    transition: none;
+    box-shadow: none;
+    -webkit-font-smoothing: auto;
+}
+
+[b-voiox86di0] .mud-button-filled {
+    transition: none;
+    box-shadow: none;
+    border-radius: 4px;
+}
+
+[b-voiox86di0] .mud-button-root {
+    -webkit-appearance: none;
+}
+
+[b-voiox86di0] .mud-button-label {
+    -webkit-font-smoothing: auto;
+}
+
+/* _content/Konducter/Views/Components/ItemAvailability/ItemAvailabilityDialogComponent.razor.rz.scp.css */
+[b-6ijs9wmrd9] .mud-list-item {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+[b-6ijs9wmrd9] .mud-simple-table table * tr > td, .mud-simple-table table * tr th[b-6ijs9wmrd9] {
+    padding: 4px 12px;
+}
+/* _content/Konducter/Views/Components/LookupOrder/LookupOrderDialogComponent.razor.rz.scp.css */
+[b-q84oi8bcwv] .mud-dialog-content {
+    padding: 0px;
+    margin: 8px 0px 0px 0px;
+}
+
+[b-q84oi8bcwv] .mud-list-item {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+[b-q84oi8bcwv] .mud-simple-table table * tr > td, .mud-simple-table table * tr th[b-q84oi8bcwv] {
+    padding: 4px 12px;
+}
+/* _content/Konducter/Views/Components/PartyNavigator/PartyNavigatorComponent.razor.rz.scp.css */
+[b-np3vu4mxv0] div.party-nav-order {
+    scroll-behavior: smooth;
+}
+/* _content/Konducter/Views/Components/ScreenComponent.razor.rz.scp.css */
+.konducter-screen[b-cdemfdbi2j] {
+    margin: 0px;
+    background-color: #fff;
+}
+/* _content/Konducter/Views/Components/SplitOrder/SplitOrderDialogComponent.razor.rz.scp.css */
+[b-kkpuc1iut9] .mud-dialog-content {
+    padding: 0px;
+    margin: 8px 0px 0px 0px;
+}
+
+[b-kkpuc1iut9] .mud-list-item {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+[b-kkpuc1iut9] .order-container {
+    width: 300px;
+}
+
+[b-kkpuc1iut9] .item-container {
+    height: 34px;
+}
+
+[b-kkpuc1iut9] .modifier-container {
+    margin: 0 8px 4px 28px;
+    line-height: 14px;
+}
+/* _content/Konducter/Views/Components/SwipeToDeleteComponent.razor.rz.scp.css */
+[b-1vqx6w697e] .mud-drawer {
+    overflow: hidden;
+    background-color: #F44336;
+    -webkit-box-shadow: inset 4px 0px 5px -1px rgba(71,65,71,0.52);
+    -moz-box-shadow: inset 4px 0px 5px -1px rgba(71,65,71,0.52);
+    box-shadow: inset 4px 0px 5px -1px rgba(71,65,71,0.52);
+}
+/* _content/Konducter/Views/Components/SystemDialogComponent.razor.rz.scp.css */
+[b-8o28rvxlyd] .mud-dialog-content {
+    padding: 0px;
+    margin: 8px 0px 0px 0px;
+}
