@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {},
     ".NETCoreApp,Version=v6.0/linux-x64": {
-      "Konducter/1.0.812": {
+      "Konducter/1.0.813": {
         "dependencies": {
           "CashDrawerPlugin": "1.0.0",
           "Jint": "3.0.0-beta-2038",
@@ -2057,7 +2057,7 @@
     }
   },
   "libraries": {
-    "Konducter/1.0.812": {
+    "Konducter/1.0.813": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
