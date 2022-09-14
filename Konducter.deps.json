@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {},
     ".NETCoreApp,Version=v6.0/linux-x64": {
-      "Konducter/1.0.821": {
+      "Konducter/1.0.823": {
         "dependencies": {
           "CashDrawerPlugin": "1.0.0",
           "Jint": "3.0.0-beta-2038",
@@ -15,8 +15,8 @@
           "Konducter.Communication.Peer": "1.0.76",
           "Konducter.Communication.Server": "1.0.41",
           "Konducter.Labor.Client": "1.0.2",
-          "Konducter.Labor.Services": "1.0.43",
-          "Konducter.Labor.State": "1.0.33",
+          "Konducter.Labor.Services": "1.0.44",
+          "Konducter.Labor.State": "1.0.34",
           "Konducter.Labor.State.Persistence": "1.0.15",
           "Konducter.Labor.UserServices": "1.0.4",
           "Konducter.Ordering.Client": "1.0.58",
@@ -24,7 +24,7 @@
           "Konducter.Ordering.Settings": "1.0.46",
           "Konducter.Ordering.State": "1.0.339",
           "Konducter.Ordering.State.Persistence": "1.0.19",
-          "Konducter.Ordering.UserServices": "1.0.9",
+          "Konducter.Ordering.UserServices": "1.0.10",
           "Konducter.Persistence.System": "1.0.10",
           "Konducter.Production.OrderingBridge": "1.0.13",
           "Konducter.Production.Services": "1.0.35",
@@ -35,9 +35,9 @@
           "Konducter.Settings.Device": "1.0.9",
           "Konducter.Shared.Device": "1.0.39",
           "Konducter.SharedSettings": "1.0.62",
-          "Konducter.State": "1.0.41",
+          "Konducter.State": "1.0.42",
           "Konducter.State.Persistence": "1.0.22",
-          "Konducter.State.Services": "1.0.33",
+          "Konducter.State.Services": "1.0.36",
           "MQTTnet": "4.1.0.247",
           "MQTTnet.Extensions.ManagedClient": "4.1.0.247",
           "Microsoft.AspNetCore.Components.WebView": "6.0.9",
@@ -48,7 +48,7 @@
           "ScannerPlugin": "1.0.0",
           "Serilog": "2.12.0",
           "Serilog.Extensions.Logging": "3.1.0",
-          "Serilog.Settings.Configuration": "3.3.0",
+          "Serilog.Settings.Configuration": "3.4.0",
           "Serilog.Sinks.Console": "4.1.0",
           "Serilog.Sinks.Debug": "2.0.0",
           "Serilog.Sinks.File": "5.0.0",
@@ -65,27 +65,11 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "Microsoft.VisualBasic.Core.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.100.822.36306"
-          },
-          "Microsoft.VisualBasic.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "Microsoft.Win32.Primitives.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
           "Microsoft.Win32.Registry.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.AppContext.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Buffers.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -113,14 +97,6 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.ComponentModel.DataAnnotations.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.ComponentModel.EventBasedAsync.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.ComponentModel.Primitives.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
@@ -133,31 +109,11 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Configuration.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Console.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Core.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Data.Common.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Data.DataSetExtensions.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Data.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Diagnostics.Contracts.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -169,23 +125,11 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Diagnostics.FileVersionInfo.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Diagnostics.Process.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
           "System.Diagnostics.StackTrace.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Diagnostics.TextWriterTraceListener.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Diagnostics.Tools.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -205,19 +149,7 @@
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Dynamic.Runtime.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Formats.Asn1.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Globalization.Calendars.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Globalization.Extensions.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -229,27 +161,7 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.IO.Compression.FileSystem.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.IO.Compression.ZipFile.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.IO.Compression.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.IO.FileSystem.AccessControl.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.IO.FileSystem.DriveInfo.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.IO.FileSystem.Primitives.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -261,15 +173,7 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.IO.IsolatedStorage.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.IO.MemoryMappedFiles.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.IO.Pipes.AccessControl.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -277,19 +181,7 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.IO.UnmanagedMemoryStream.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.IO.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Linq.Expressions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Linq.Parallel.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -313,23 +205,11 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Net.HttpListener.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Net.Mail.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Net.NameResolution.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
           "System.Net.NetworkInformation.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Net.Ping.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -341,23 +221,11 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Net.Requests.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Net.Security.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Net.ServicePoint.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Net.Sockets.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Net.WebClient.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -377,16 +245,8 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Net.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Numerics.Vectors.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Numerics.dll": {
-            "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
           "System.ObjectModel.dll": {
@@ -410,10 +270,6 @@
             "fileVersion": "6.0.822.36306"
           },
           "System.Private.Xml.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Reflection.DispatchProxy.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -441,15 +297,7 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Reflection.TypeExtensions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Reflection.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Resources.Reader.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -457,23 +305,11 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Resources.Writer.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Runtime.CompilerServices.Unsafe.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Runtime.CompilerServices.VisualC.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Runtime.Extensions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Runtime.Handles.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -501,20 +337,12 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Runtime.Serialization.Json.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Runtime.Serialization.Primitives.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
           "System.Runtime.Serialization.Xml.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Runtime.Serialization.dll": {
-            "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
           "System.Runtime.dll": {
@@ -561,35 +389,7 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Security.Principal.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Security.SecureString.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Security.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.ServiceModel.Web.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.ServiceProcess.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Text.Encoding.CodePages.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Text.Encoding.Extensions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Text.Encoding.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -613,31 +413,11 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Threading.Tasks.Dataflow.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Threading.Tasks.Extensions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Threading.Tasks.Parallel.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Threading.Tasks.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Threading.Thread.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
           "System.Threading.ThreadPool.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Threading.Timer.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -649,51 +429,11 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Transactions.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.ValueTuple.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Web.HttpUtility.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Web.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Windows.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Xml.Linq.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Xml.ReaderWriter.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Xml.Serialization.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.Xml.XDocument.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Xml.XPath.XDocument.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Xml.XPath.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "System.Xml.XmlDocument.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -701,19 +441,7 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
-          "System.Xml.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
           "System.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "WindowsBase.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.822.36306"
-          },
-          "mscorlib.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.822.36306"
           },
@@ -1097,10 +825,6 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           },
-          "Microsoft.Extensions.Configuration.Ini.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          },
           "Microsoft.Extensions.Configuration.Json.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
@@ -1112,10 +836,6 @@
           "Microsoft.Extensions.Configuration.UserSecrets.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.222.6406"
-          },
-          "Microsoft.Extensions.Configuration.Xml.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
           },
           "Microsoft.Extensions.Configuration.dll": {
             "assemblyVersion": "6.0.0.0",
@@ -1205,10 +925,6 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           },
-          "Microsoft.Extensions.Logging.TraceSource.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          },
           "Microsoft.Extensions.Logging.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
@@ -1218,10 +934,6 @@
             "fileVersion": "6.0.822.36316"
           },
           "Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          },
-          "Microsoft.Extensions.Options.DataAnnotations.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           },
@@ -1287,16 +999,16 @@
           "Konducter.Persistence.System": "1.0.10",
           "Konducter.Settings.Device": "1.0.9",
           "Konducter.SharedSettings": "1.0.62",
-          "Konducter.State": "1.0.41",
+          "Konducter.State": "1.0.42",
           "Konducter.State.Persistence": "1.0.22",
-          "Konducter.State.Services": "1.0.33",
-          "Konducter.UserServices": "1.0.3",
+          "Konducter.State.Services": "1.0.36",
+          "Konducter.UserServices": "1.0.4",
           "Microsoft.AspNetCore.Components.WebView": "6.0.9",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.9",
           "Photino.NET": "2.1.11",
           "Serilog": "2.12.0",
           "Serilog.Extensions.Logging": "3.1.0",
-          "Serilog.Settings.Configuration": "3.3.0",
+          "Serilog.Settings.Configuration": "3.4.0",
           "Serilog.Sinks.Console": "4.1.0",
           "Serilog.Sinks.Debug": "2.0.0",
           "Serilog.Sinks.File": "5.0.0"
@@ -1339,7 +1051,7 @@
           "Konducter.Persistence.System": "1.0.10",
           "Konducter.Settings.Device": "1.0.9",
           "Konducter.Shared.Device": "1.0.39",
-          "Konducter.State": "1.0.41",
+          "Konducter.State": "1.0.42",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.9"
         },
         "runtime": {
@@ -1386,36 +1098,36 @@
           }
         }
       },
-      "Konducter.Labor.Services/1.0.43": {
+      "Konducter.Labor.Services/1.0.44": {
         "dependencies": {
           "Konducter.Communication.Peer": "1.0.76",
-          "Konducter.Labor.State": "1.0.33",
+          "Konducter.Labor.State": "1.0.34",
           "Konducter.Labor.State.Persistence": "1.0.15",
           "Konducter.SharedSettings": "1.0.62",
-          "Konducter.State.Services": "1.0.33"
+          "Konducter.State.Services": "1.0.36"
         },
         "runtime": {
           "lib/net6.0/Konducter.Labor.Services.dll": {
-            "assemblyVersion": "1.0.43.0",
-            "fileVersion": "1.0.43.0"
+            "assemblyVersion": "1.0.44.0",
+            "fileVersion": "1.0.44.0"
           }
         }
       },
-      "Konducter.Labor.State/1.0.33": {
+      "Konducter.Labor.State/1.0.34": {
         "dependencies": {
-          "Konducter.State": "1.0.41",
+          "Konducter.State": "1.0.42",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Konducter.Labor.State.dll": {
-            "assemblyVersion": "1.0.33.0",
-            "fileVersion": "1.0.33.0"
+            "assemblyVersion": "1.0.34.0",
+            "fileVersion": "1.0.34.0"
           }
         }
       },
       "Konducter.Labor.State.Persistence/1.0.15": {
         "dependencies": {
-          "Konducter.Labor.State": "1.0.33",
+          "Konducter.Labor.State": "1.0.34",
           "Konducter.State.Persistence": "1.0.22",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.9",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
@@ -1429,8 +1141,8 @@
       },
       "Konducter.Labor.UserServices/1.0.4": {
         "dependencies": {
-          "Konducter.Labor.Services": "1.0.43",
-          "Konducter.UserServices": "1.0.3"
+          "Konducter.Labor.Services": "1.0.44",
+          "Konducter.UserServices": "1.0.4"
         },
         "runtime": {
           "lib/net6.0/Konducter.Labor.UserServices.dll": {
@@ -1472,7 +1184,7 @@
           "Konducter.Shared": "1.0.47",
           "Konducter.Shared.Device": "1.0.39",
           "Konducter.SharedSettings": "1.0.62",
-          "Konducter.State.Services": "1.0.33",
+          "Konducter.State.Services": "1.0.36",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
@@ -1517,7 +1229,7 @@
         "dependencies": {
           "Konducter.Shared": "1.0.47",
           "Konducter.Shared.Device": "1.0.39",
-          "Konducter.State": "1.0.41",
+          "Konducter.State": "1.0.42",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
@@ -1541,18 +1253,19 @@
           }
         }
       },
-      "Konducter.Ordering.UserServices/1.0.9": {
+      "Konducter.Ordering.UserServices/1.0.10": {
         "dependencies": {
           "Konducter.Controls.Device": "1.0.5",
           "Konducter.Ordering.Services": "1.0.241",
           "Konducter.Ordering.State": "1.0.339",
-          "Konducter.UserServices": "1.0.3",
+          "Konducter.State.Services": "1.0.36",
+          "Konducter.UserServices": "1.0.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Konducter.Ordering.UserServices.dll": {
-            "assemblyVersion": "1.0.9.0",
-            "fileVersion": "1.0.9.0"
+            "assemblyVersion": "1.0.10.0",
+            "fileVersion": "1.0.10.0"
           }
         }
       },
@@ -1590,7 +1303,7 @@
           "Konducter.Shared": "1.0.47",
           "Konducter.Shared.Device": "1.0.39",
           "Konducter.SharedSettings": "1.0.62",
-          "Konducter.State.Services": "1.0.33"
+          "Konducter.State.Services": "1.0.36"
         },
         "runtime": {
           "lib/net6.0/Konducter.Production.Services.dll": {
@@ -1628,7 +1341,7 @@
       },
       "Konducter.Production.State/1.0.34": {
         "dependencies": {
-          "Konducter.State": "1.0.41",
+          "Konducter.State": "1.0.42",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
@@ -1715,21 +1428,21 @@
           }
         }
       },
-      "Konducter.State/1.0.41": {
+      "Konducter.State/1.0.42": {
         "dependencies": {
           "Konducter.Shared": "1.0.47",
           "Konducter.Shared.Device": "1.0.39"
         },
         "runtime": {
           "lib/net6.0/Konducter.State.dll": {
-            "assemblyVersion": "1.0.41.0",
-            "fileVersion": "1.0.41.0"
+            "assemblyVersion": "1.0.42.0",
+            "fileVersion": "1.0.42.0"
           }
         }
       },
       "Konducter.State.Persistence/1.0.22": {
         "dependencies": {
-          "Konducter.State": "1.0.41",
+          "Konducter.State": "1.0.42",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.9",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
@@ -1740,30 +1453,31 @@
           }
         }
       },
-      "Konducter.State.Services/1.0.33": {
+      "Konducter.State.Services/1.0.36": {
         "dependencies": {
-          "Konducter.State": "1.0.41",
+          "Konducter.State": "1.0.42",
           "Konducter.State.Persistence": "1.0.22"
         },
         "runtime": {
           "lib/net6.0/Konducter.State.Services.dll": {
-            "assemblyVersion": "1.0.33.0",
-            "fileVersion": "1.0.33.0"
+            "assemblyVersion": "1.0.36.0",
+            "fileVersion": "1.0.36.0"
           }
         }
       },
-      "Konducter.UserServices/1.0.3": {
+      "Konducter.UserServices/1.0.4": {
         "dependencies": {
           "Konducter.Controls.Device": "1.0.5",
+          "Konducter.Shared.Device": "1.0.39",
           "Konducter.SharedSettings": "1.0.62",
-          "Konducter.State": "1.0.41",
-          "Konducter.State.Services": "1.0.33",
+          "Konducter.State": "1.0.42",
+          "Konducter.State.Services": "1.0.36",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Konducter.UserServices.dll": {
-            "assemblyVersion": "1.0.3.0",
-            "fileVersion": "1.0.3.0"
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
           }
         }
       },
@@ -2086,14 +1800,6 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Primitives": "6.0.0"
-        }
-      },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/2.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Options": "6.0.0"
         }
       },
       "Microsoft.Extensions.Primitives/6.0.0": {
@@ -2470,16 +2176,16 @@
           }
         }
       },
-      "Serilog.Settings.Configuration/3.3.0": {
+      "Serilog.Settings.Configuration/3.4.0": {
         "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Microsoft.Extensions.DependencyModel": "6.0.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.0.0",
           "Serilog": "2.12.0"
         },
         "runtime": {
           "lib/netstandard2.0/Serilog.Settings.Configuration.dll": {
-            "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.3.0.0"
+            "assemblyVersion": "3.4.0.0",
+            "fileVersion": "3.4.0.0"
           }
         }
       },
@@ -3233,7 +2939,7 @@
     }
   },
   "libraries": {
-    "Konducter/1.0.821": {
+    "Konducter/1.0.823": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -3311,19 +3017,19 @@
       "path": "konducter.labor.client/1.0.2",
       "hashPath": "konducter.labor.client.1.0.2.nupkg.sha512"
     },
-    "Konducter.Labor.Services/1.0.43": {
+    "Konducter.Labor.Services/1.0.44": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-x/dcXmWiAe6GXB7rYtH0KJgvDRmvzxp8IlQdfJbClqBQ3KeIxhqlTLmtAmrjX7y1Xvc3Lora3W4TBxIC7kZOYw==",
-      "path": "konducter.labor.services/1.0.43",
-      "hashPath": "konducter.labor.services.1.0.43.nupkg.sha512"
+      "sha512": "sha512-RpvJpNuM2VGuMRYdAUSsyQznLHCYGoUOaOLqFjkSRib+3ilUIzqeI7jfd1PA45F8Gwdw7Z0biP+E/tK4dQe5UQ==",
+      "path": "konducter.labor.services/1.0.44",
+      "hashPath": "konducter.labor.services.1.0.44.nupkg.sha512"
     },
-    "Konducter.Labor.State/1.0.33": {
+    "Konducter.Labor.State/1.0.34": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MozpmWQKXPMPA60aOdqSofEp0Jg+C0C7h95BFuXJyfes6EOQ04Yx5ZKs3u2FVgrqo0maWyAeCJzRH2BfHndyfw==",
-      "path": "konducter.labor.state/1.0.33",
-      "hashPath": "konducter.labor.state.1.0.33.nupkg.sha512"
+      "sha512": "sha512-9qx3o+R6F43f1V4hQ/bja/DVSSSP+DrPgwIQ88fS3Km3gXDnZx/WxB02KcJn1LXL/skPbjo21ISbrH1k2iAf+A==",
+      "path": "konducter.labor.state/1.0.34",
+      "hashPath": "konducter.labor.state.1.0.34.nupkg.sha512"
     },
     "Konducter.Labor.State.Persistence/1.0.15": {
       "type": "package",
@@ -3388,12 +3094,12 @@
       "path": "konducter.ordering.state.persistence/1.0.19",
       "hashPath": "konducter.ordering.state.persistence.1.0.19.nupkg.sha512"
     },
-    "Konducter.Ordering.UserServices/1.0.9": {
+    "Konducter.Ordering.UserServices/1.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FzjyGtVyyBDuBmGwgky84vYYlJKXhyXdLA9lFLMej+akLY9BIkQn/1CcTWtS6SXt8dIqEQ9EGJJQLiI3CUrxig==",
-      "path": "konducter.ordering.userservices/1.0.9",
-      "hashPath": "konducter.ordering.userservices.1.0.9.nupkg.sha512"
+      "sha512": "sha512-iKr9mp5DE3zcVfxCuUWrGQEH3mRns3hIcBn7/e9YN76QX90Ldmbkfgi3QYVrLkq1PtwqgTr/G/LLXt44IF3dkw==",
+      "path": "konducter.ordering.userservices/1.0.10",
+      "hashPath": "konducter.ordering.userservices.1.0.10.nupkg.sha512"
     },
     "Konducter.Persistence.System/1.0.10": {
       "type": "package",
@@ -3479,12 +3185,12 @@
       "path": "konducter.sharedsettings/1.0.62",
       "hashPath": "konducter.sharedsettings.1.0.62.nupkg.sha512"
     },
-    "Konducter.State/1.0.41": {
+    "Konducter.State/1.0.42": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2vNkTaqwYw78nfPBDhydCly3MnJPUt1c/S0pCh7yFvYCtKFl703pg4Jawr0bjQgqsxteBUq0bBOcJZPbAX2/Rw==",
-      "path": "konducter.state/1.0.41",
-      "hashPath": "konducter.state.1.0.41.nupkg.sha512"
+      "sha512": "sha512-39Cj2if+3zAxLh7j3LQH6hd+F1ltCAV7KMpsNunEutCh3dMKrev9Bd7IfrWel8+K7yUYbaxY48ujYdYYV+uhWw==",
+      "path": "konducter.state/1.0.42",
+      "hashPath": "konducter.state.1.0.42.nupkg.sha512"
     },
     "Konducter.State.Persistence/1.0.22": {
       "type": "package",
@@ -3493,19 +3199,19 @@
       "path": "konducter.state.persistence/1.0.22",
       "hashPath": "konducter.state.persistence.1.0.22.nupkg.sha512"
     },
-    "Konducter.State.Services/1.0.33": {
+    "Konducter.State.Services/1.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0kzctsthPas5t/QDsUVgby3wlj7xCEE1WPN5z+owrHS6YRy8F1tVxh40ggN056xwqaaett73S8Kwprcgi4fqXw==",
-      "path": "konducter.state.services/1.0.33",
-      "hashPath": "konducter.state.services.1.0.33.nupkg.sha512"
+      "sha512": "sha512-HnV3XcyMiXOBPGXI2LcArAOnVH1Qc+c/jlumeOOXevLk6Wdjhxl8Ddk/YbUBXXhgFi0kce98UKFOnzmEm/QqzQ==",
+      "path": "konducter.state.services/1.0.36",
+      "hashPath": "konducter.state.services.1.0.36.nupkg.sha512"
     },
-    "Konducter.UserServices/1.0.3": {
+    "Konducter.UserServices/1.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Xxpg8RKKkDAPyjaclsoF2XW/j33b5b3YDwYsZrOT66DPZB7wZqk8jpJTAw7tjMR2SrQYvDulltxvZDRz5mqnUw==",
-      "path": "konducter.userservices/1.0.3",
-      "hashPath": "konducter.userservices.1.0.3.nupkg.sha512"
+      "sha512": "sha512-XMPu2nCBKt8Q+7TVZtABLd6Z5IjBW5kRLQXhTuQkTGZ0eafGd4jCQVVVxjF50wufvFWG3EJQE6dcNnUzflw7ug==",
+      "path": "konducter.userservices/1.0.4",
+      "hashPath": "konducter.userservices.1.0.4.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.9": {
       "type": "package",
@@ -3779,13 +3485,6 @@
       "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
       "path": "microsoft.extensions.options/6.0.0",
       "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Options.ConfigurationExtensions/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Y/lGICwO27fCkQRK3tZseVzFjZaxfGmui990E67sB4MuiPzdJHnJDS/BeYWrHShSSBgCl4KyKRx4ux686fftPg==",
-      "path": "microsoft.extensions.options.configurationextensions/2.0.0",
-      "hashPath": "microsoft.extensions.options.configurationextensions.2.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/6.0.0": {
       "type": "package",
@@ -4207,12 +3906,12 @@
       "path": "serilog.extensions.logging/3.1.0",
       "hashPath": "serilog.extensions.logging.3.1.0.nupkg.sha512"
     },
-    "Serilog.Settings.Configuration/3.3.0": {
+    "Serilog.Settings.Configuration/3.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7GNudISZwqaT902hqEL2OFGTZeUFWfnrNLupJkOqeF41AR3GjcxX+Hwb30xb8gG2/CDXsCMVfF8o0+8KY0fJNg==",
-      "path": "serilog.settings.configuration/3.3.0",
-      "hashPath": "serilog.settings.configuration.3.3.0.nupkg.sha512"
+      "sha512": "sha512-ULloXSiapTb3zOWodC0G4WRDQzA5RjMEfZNZzOZpH8kC3t/lrISLblklIpKC44CX0sMDF40MnJwTIQ3pFQFs4g==",
+      "path": "serilog.settings.configuration/3.4.0",
+      "hashPath": "serilog.settings.configuration.3.4.0.nupkg.sha512"
     },
     "Serilog.Sinks.Console/4.1.0": {
       "type": "package",
