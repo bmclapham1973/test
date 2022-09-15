@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {},
     ".NETCoreApp,Version=v6.0/linux-x64": {
-      "Konducter/1.0.825": {
+      "Konducter/1.0.826": {
         "dependencies": {
           "CashDrawerPlugin": "1.0.0",
           "Jint": "3.0.0-beta-2038",
@@ -15,8 +15,8 @@
           "Konducter.Communication.Peer": "1.0.76",
           "Konducter.Communication.Server": "1.0.41",
           "Konducter.Labor.Client": "1.0.2",
-          "Konducter.Labor.Services": "1.0.45",
-          "Konducter.Labor.State": "1.0.37",
+          "Konducter.Labor.Services": "1.0.46",
+          "Konducter.Labor.State": "1.0.38",
           "Konducter.Labor.State.Persistence": "1.0.15",
           "Konducter.Labor.UserServices": "1.0.4",
           "Konducter.Ordering.Client": "1.0.58",
@@ -1098,36 +1098,36 @@
           }
         }
       },
-      "Konducter.Labor.Services/1.0.45": {
+      "Konducter.Labor.Services/1.0.46": {
         "dependencies": {
           "Konducter.Communication.Peer": "1.0.76",
-          "Konducter.Labor.State": "1.0.37",
+          "Konducter.Labor.State": "1.0.38",
           "Konducter.Labor.State.Persistence": "1.0.15",
           "Konducter.SharedSettings": "1.0.62",
           "Konducter.State.Services": "1.0.36"
         },
         "runtime": {
           "lib/net6.0/Konducter.Labor.Services.dll": {
-            "assemblyVersion": "1.0.45.0",
-            "fileVersion": "1.0.45.0"
+            "assemblyVersion": "1.0.46.0",
+            "fileVersion": "1.0.46.0"
           }
         }
       },
-      "Konducter.Labor.State/1.0.37": {
+      "Konducter.Labor.State/1.0.38": {
         "dependencies": {
           "Konducter.State": "1.0.42",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Konducter.Labor.State.dll": {
-            "assemblyVersion": "1.0.37.0",
-            "fileVersion": "1.0.37.0"
+            "assemblyVersion": "1.0.38.0",
+            "fileVersion": "1.0.38.0"
           }
         }
       },
       "Konducter.Labor.State.Persistence/1.0.15": {
         "dependencies": {
-          "Konducter.Labor.State": "1.0.37",
+          "Konducter.Labor.State": "1.0.38",
           "Konducter.State.Persistence": "1.0.22",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.9",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
@@ -1141,7 +1141,7 @@
       },
       "Konducter.Labor.UserServices/1.0.4": {
         "dependencies": {
-          "Konducter.Labor.Services": "1.0.45",
+          "Konducter.Labor.Services": "1.0.46",
           "Konducter.UserServices": "1.0.4"
         },
         "runtime": {
@@ -2939,7 +2939,7 @@
     }
   },
   "libraries": {
-    "Konducter/1.0.825": {
+    "Konducter/1.0.826": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -3017,19 +3017,19 @@
       "path": "konducter.labor.client/1.0.2",
       "hashPath": "konducter.labor.client.1.0.2.nupkg.sha512"
     },
-    "Konducter.Labor.Services/1.0.45": {
+    "Konducter.Labor.Services/1.0.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iXbpfxYwlWjHAyqJ4XLyZpFJdEqjDWzEpGfK5RuRg94vhc6RVZtSMbYzYfOgPKM6e7Aek+jFBDiEUXFIqyjqXQ==",
-      "path": "konducter.labor.services/1.0.45",
-      "hashPath": "konducter.labor.services.1.0.45.nupkg.sha512"
+      "sha512": "sha512-TgP+yBXMYH14obn6ixbBcMEiyMV0bnSPGVsXy8P/Rxy4AhrNJZr9M+A6ertPrvInhe0dUkYbHzPeNge0RSdAzg==",
+      "path": "konducter.labor.services/1.0.46",
+      "hashPath": "konducter.labor.services.1.0.46.nupkg.sha512"
     },
-    "Konducter.Labor.State/1.0.37": {
+    "Konducter.Labor.State/1.0.38": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xao0Edt9XqclwiwV3CYSfihvZwCDNpdoSq1Ahi4RzNJWpO8MUClXIuDwy8lBSNb9ijDeSNn/OPKma8X7rocfSA==",
-      "path": "konducter.labor.state/1.0.37",
-      "hashPath": "konducter.labor.state.1.0.37.nupkg.sha512"
+      "sha512": "sha512-d8oKE/HBmnOelAIubzEdPn6cL02TsTt+S30Ho8sWou8eWF9J/MImUvCdQcEETx1Z22wbYHgGXrwkOiYP19NmIA==",
+      "path": "konducter.labor.state/1.0.38",
+      "hashPath": "konducter.labor.state.1.0.38.nupkg.sha512"
     },
     "Konducter.Labor.State.Persistence/1.0.15": {
       "type": "package",
