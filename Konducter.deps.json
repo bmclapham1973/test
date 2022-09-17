@@ -7,12 +7,12 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {},
     ".NETCoreApp,Version=v6.0/linux-x64": {
-      "Konducter/1.0.835": {
+      "Konducter/1.0.839": {
         "dependencies": {
           "CashDrawerPlugin": "1.0.0",
           "Jint": "3.0.0-beta-2038",
-          "Konducter.Application.Device": "1.0.35",
-          "Konducter.Communication.Peer": "1.0.78",
+          "Konducter.Application.Device": "1.0.36",
+          "Konducter.Communication.Peer": "1.0.80",
           "Konducter.Communication.Server": "1.0.41",
           "Konducter.Labor.Client": "1.0.2",
           "Konducter.Labor.Services": "1.0.48",
@@ -22,7 +22,7 @@
           "Konducter.Ordering.Client": "1.0.58",
           "Konducter.Ordering.Services": "1.0.241",
           "Konducter.Ordering.Settings": "1.0.46",
-          "Konducter.Ordering.State": "1.0.339",
+          "Konducter.Ordering.State": "1.0.340",
           "Konducter.Ordering.State.Persistence": "1.0.19",
           "Konducter.Ordering.UserServices": "1.0.10",
           "Konducter.Persistence.System": "1.0.10",
@@ -33,7 +33,7 @@
           "Konducter.Production.State.Persistence": "1.0.8",
           "Konducter.Settings.Client": "1.0.15",
           "Konducter.Settings.Device": "1.0.9",
-          "Konducter.Shared.Device": "1.0.39",
+          "Konducter.Shared.Device": "1.0.40",
           "Konducter.SharedSettings": "1.0.62",
           "Konducter.State": "1.0.42",
           "Konducter.State.Persistence": "1.0.22",
@@ -1022,14 +1022,15 @@
           }
         }
       },
-      "Konducter.Application.Device/1.0.35": {
+      "Konducter.Application.Device/1.0.36": {
         "dependencies": {
           "Konducter.Blazor": "1.0.9",
-          "Konducter.Communication.Peer": "1.0.78",
+          "Konducter.Communication.Peer": "1.0.80",
           "Konducter.Communication.Server": "1.0.41",
           "Konducter.Controls.Device": "1.0.5",
           "Konducter.Persistence.System": "1.0.10",
           "Konducter.Settings.Device": "1.0.9",
+          "Konducter.Shared.Device": "1.0.40",
           "Konducter.SharedSettings": "1.0.62",
           "Konducter.State": "1.0.42",
           "Konducter.State.Persistence": "1.0.22",
@@ -1047,8 +1048,8 @@
         },
         "runtime": {
           "lib/net6.0/Konducter.Application.Device.dll": {
-            "assemblyVersion": "1.0.35.0",
-            "fileVersion": "1.0.35.0"
+            "assemblyVersion": "1.0.36.0",
+            "fileVersion": "1.0.36.0"
           }
         }
       },
@@ -1076,21 +1077,21 @@
           }
         }
       },
-      "Konducter.Communication.Peer/1.0.78": {
+      "Konducter.Communication.Peer/1.0.80": {
         "dependencies": {
           "Konducter.Communication.Server": "1.0.41",
           "Konducter.Communication.Services": "1.0.2",
           "Konducter.Model.Site": "1.0.53",
           "Konducter.Persistence.System": "1.0.10",
           "Konducter.Settings.Device": "1.0.9",
-          "Konducter.Shared.Device": "1.0.39",
+          "Konducter.Shared.Device": "1.0.40",
           "Konducter.State": "1.0.42",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.9"
         },
         "runtime": {
           "lib/net6.0/Konducter.Communication.Peer.dll": {
-            "assemblyVersion": "1.0.78.0",
-            "fileVersion": "1.0.78.0"
+            "assemblyVersion": "1.0.80.0",
+            "fileVersion": "1.0.80.0"
           }
         }
       },
@@ -1098,7 +1099,7 @@
         "dependencies": {
           "Konducter.Model.Site": "1.0.53",
           "Konducter.Persistence.System": "1.0.10",
-          "Konducter.Shared.Device": "1.0.39",
+          "Konducter.Shared.Device": "1.0.40",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.9",
           "Microsoft.Extensions.Http": "6.0.0"
         },
@@ -1144,7 +1145,7 @@
       },
       "Konducter.Labor.Services/1.0.48": {
         "dependencies": {
-          "Konducter.Communication.Peer": "1.0.78",
+          "Konducter.Communication.Peer": "1.0.80",
           "Konducter.Labor.State": "1.0.44",
           "Konducter.Labor.State.Persistence": "1.0.15",
           "Konducter.SharedSettings": "1.0.62",
@@ -1221,12 +1222,12 @@
       },
       "Konducter.Ordering.Services/1.0.241": {
         "dependencies": {
-          "Konducter.Communication.Peer": "1.0.78",
+          "Konducter.Communication.Peer": "1.0.80",
           "Konducter.Ordering.Settings": "1.0.46",
-          "Konducter.Ordering.State": "1.0.339",
+          "Konducter.Ordering.State": "1.0.340",
           "Konducter.Ordering.State.Persistence": "1.0.19",
           "Konducter.Shared": "1.0.47",
-          "Konducter.Shared.Device": "1.0.39",
+          "Konducter.Shared.Device": "1.0.40",
           "Konducter.SharedSettings": "1.0.62",
           "Konducter.State.Services": "1.0.36",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
@@ -1245,7 +1246,7 @@
           "Konducter.Ordering.Site": "1.0.22",
           "Konducter.Settings.Device": "1.0.9",
           "Konducter.Shared": "1.0.47",
-          "Konducter.Shared.Device": "1.0.39",
+          "Konducter.Shared.Device": "1.0.40",
           "Konducter.SharedSettings": "1.0.62",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.9",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
@@ -1269,24 +1270,24 @@
           }
         }
       },
-      "Konducter.Ordering.State/1.0.339": {
+      "Konducter.Ordering.State/1.0.340": {
         "dependencies": {
           "Konducter.Shared": "1.0.47",
-          "Konducter.Shared.Device": "1.0.39",
+          "Konducter.Shared.Device": "1.0.40",
           "Konducter.State": "1.0.42",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Konducter.Ordering.State.dll": {
-            "assemblyVersion": "1.0.339.0",
-            "fileVersion": "1.0.339.0"
+            "assemblyVersion": "1.0.340.0",
+            "fileVersion": "1.0.340.0"
           }
         }
       },
       "Konducter.Ordering.State.Persistence/1.0.19": {
         "dependencies": {
-          "Konducter.Ordering.State": "1.0.339",
+          "Konducter.Ordering.State": "1.0.340",
           "Konducter.State.Persistence": "1.0.22",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.9"
         },
@@ -1301,7 +1302,7 @@
         "dependencies": {
           "Konducter.Controls.Device": "1.0.5",
           "Konducter.Ordering.Services": "1.0.241",
-          "Konducter.Ordering.State": "1.0.339",
+          "Konducter.Ordering.State": "1.0.340",
           "Konducter.State.Services": "1.0.36",
           "Konducter.UserServices": "1.0.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
@@ -1328,7 +1329,7 @@
       },
       "Konducter.Production.OrderingBridge/1.0.14": {
         "dependencies": {
-          "Konducter.Ordering.State": "1.0.339",
+          "Konducter.Ordering.State": "1.0.340",
           "Konducter.Production.Services": "1.0.35"
         },
         "runtime": {
@@ -1340,12 +1341,12 @@
       },
       "Konducter.Production.Services/1.0.35": {
         "dependencies": {
-          "Konducter.Communication.Peer": "1.0.78",
+          "Konducter.Communication.Peer": "1.0.80",
           "Konducter.Production.Settings": "1.0.7",
           "Konducter.Production.State": "1.0.34",
           "Konducter.Production.State.Persistence": "1.0.8",
           "Konducter.Shared": "1.0.47",
-          "Konducter.Shared.Device": "1.0.39",
+          "Konducter.Shared.Device": "1.0.40",
           "Konducter.SharedSettings": "1.0.62",
           "Konducter.State.Services": "1.0.36"
         },
@@ -1361,7 +1362,7 @@
           "Konducter.Communication.Server": "1.0.41",
           "Konducter.Production.Site": "1.0.4",
           "Konducter.Settings.Device": "1.0.9",
-          "Konducter.Shared.Device": "1.0.39",
+          "Konducter.Shared.Device": "1.0.40",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.9",
           "Microsoft.Extensions.Http": "6.0.0"
         },
@@ -1442,25 +1443,25 @@
           }
         }
       },
-      "Konducter.Shared.Device/1.0.39": {
+      "Konducter.Shared.Device/1.0.40": {
         "dependencies": {
           "Konducter.Authorization": "1.0.9",
           "Konducter.Shared": "1.0.47"
         },
         "runtime": {
           "lib/net6.0/Konducter.Shared.Device.dll": {
-            "assemblyVersion": "1.0.39.0",
-            "fileVersion": "1.0.39.0"
+            "assemblyVersion": "1.0.40.0",
+            "fileVersion": "1.0.40.0"
           }
         }
       },
       "Konducter.SharedSettings/1.0.62": {
         "dependencies": {
-          "Konducter.Communication.Peer": "1.0.78",
+          "Konducter.Communication.Peer": "1.0.80",
           "Konducter.Model.Site": "1.0.53",
           "Konducter.Settings.Client": "1.0.15",
           "Konducter.Settings.Device": "1.0.9",
-          "Konducter.Shared.Device": "1.0.39",
+          "Konducter.Shared.Device": "1.0.40",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.9",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Http": "6.0.0"
@@ -1475,7 +1476,7 @@
       "Konducter.State/1.0.42": {
         "dependencies": {
           "Konducter.Shared": "1.0.47",
-          "Konducter.Shared.Device": "1.0.39"
+          "Konducter.Shared.Device": "1.0.40"
         },
         "runtime": {
           "lib/net6.0/Konducter.State.dll": {
@@ -1512,7 +1513,7 @@
       "Konducter.UserServices/1.0.4": {
         "dependencies": {
           "Konducter.Controls.Device": "1.0.5",
-          "Konducter.Shared.Device": "1.0.39",
+          "Konducter.Shared.Device": "1.0.40",
           "Konducter.SharedSettings": "1.0.62",
           "Konducter.State": "1.0.42",
           "Konducter.State.Services": "1.0.36",
@@ -2943,7 +2944,7 @@
     }
   },
   "libraries": {
-    "Konducter/1.0.835": {
+    "Konducter/1.0.839": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2972,12 +2973,12 @@
       "path": "jint/3.0.0-beta-2038",
       "hashPath": "jint.3.0.0-beta-2038.nupkg.sha512"
     },
-    "Konducter.Application.Device/1.0.35": {
+    "Konducter.Application.Device/1.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UMiS3J1iwTIowR0hL2bVprInnBWE2EUASeTcLLzi1OBL6W8VgRvOVaLFh/zr3o2I7uMr8RVJcRgMFQPlWy0wxA==",
-      "path": "konducter.application.device/1.0.35",
-      "hashPath": "konducter.application.device.1.0.35.nupkg.sha512"
+      "sha512": "sha512-OBJodTWoRaVUkbe5GI5cSEw0pzCvPA/nLIFvSbdjtCCH5T0Q0L+XmWB6YZDDh4v3xD6ccZzRhC/IKQ+dfecAiQ==",
+      "path": "konducter.application.device/1.0.36",
+      "hashPath": "konducter.application.device.1.0.36.nupkg.sha512"
     },
     "Konducter.Authorization/1.0.9": {
       "type": "package",
@@ -2993,12 +2994,12 @@
       "path": "konducter.blazor/1.0.9",
       "hashPath": "konducter.blazor.1.0.9.nupkg.sha512"
     },
-    "Konducter.Communication.Peer/1.0.78": {
+    "Konducter.Communication.Peer/1.0.80": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zZ5D/s47ilicu4/2zq+MVNu9NIi9UjQM7Qs/b+cMnTimd73jLqwV2pxDw5RBdcLWwy0k1QJCdE9qWkJVhXIgzg==",
-      "path": "konducter.communication.peer/1.0.78",
-      "hashPath": "konducter.communication.peer.1.0.78.nupkg.sha512"
+      "sha512": "sha512-NX4KayKuraHItDJQGG43DStgKIOUaZQJ7dh7GtMzwRtzCo4kCkSIXkrl9d/lQcZMHuYfTbZ2HtyAEcWEf2MU8A==",
+      "path": "konducter.communication.peer/1.0.80",
+      "hashPath": "konducter.communication.peer.1.0.80.nupkg.sha512"
     },
     "Konducter.Communication.Server/1.0.41": {
       "type": "package",
@@ -3091,12 +3092,12 @@
       "path": "konducter.ordering.site/1.0.22",
       "hashPath": "konducter.ordering.site.1.0.22.nupkg.sha512"
     },
-    "Konducter.Ordering.State/1.0.339": {
+    "Konducter.Ordering.State/1.0.340": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8Z6e6zQ6LUBQqYLKxi8tG0pIrkBaD30UlnO/WhgAq+HvhD/ySmxF3iPU9fML/jfrj5XApUU7fyc+0Fa7fLf6zQ==",
-      "path": "konducter.ordering.state/1.0.339",
-      "hashPath": "konducter.ordering.state.1.0.339.nupkg.sha512"
+      "sha512": "sha512-MOn7ffjS3NXIictMzAtfI7avecUWFZs6qzjC/QSj5XtKfD26t8fmC9LUN+kzFtApuMAZstkzeH0iOdzr8zFrfw==",
+      "path": "konducter.ordering.state/1.0.340",
+      "hashPath": "konducter.ordering.state.1.0.340.nupkg.sha512"
     },
     "Konducter.Ordering.State.Persistence/1.0.19": {
       "type": "package",
@@ -3182,12 +3183,12 @@
       "path": "konducter.shared/1.0.47",
       "hashPath": "konducter.shared.1.0.47.nupkg.sha512"
     },
-    "Konducter.Shared.Device/1.0.39": {
+    "Konducter.Shared.Device/1.0.40": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RxsMYeNjmhRgZZLw3ehPIbn9g9vnY8HP80us1YDgGfi4AyTJim24bcXU6eBYibmDK34XH3waZwye6o5mi5av4w==",
-      "path": "konducter.shared.device/1.0.39",
-      "hashPath": "konducter.shared.device.1.0.39.nupkg.sha512"
+      "sha512": "sha512-iZEPvwjP2xIq8P3I7pMHcnzrKdg99f9pmRUeHxFfq4kgtseQ4KNQqhtbYa7tR4/XPNaFluckh75RpJLhQOhp9Q==",
+      "path": "konducter.shared.device/1.0.40",
+      "hashPath": "konducter.shared.device.1.0.40.nupkg.sha512"
     },
     "Konducter.SharedSettings/1.0.62": {
       "type": "package",
